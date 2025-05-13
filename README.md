@@ -16,3 +16,10 @@ docker-compose up
 除原始資料外，此檔案庫內語音模型、轉換格式、重新編排的編輯著作權（如果有的話）皆以 CC0 釋出，衍生著作物應以原始資料之授權為準。
 
 程式部份為MIT授權。
+
+## 執行方式
+# 進入虛模擬器source venv/bin/activate 退出 deactivate
+
+# cd HOK8-BU7  PYTHONPATH=. python3 -m hok8bu7.taiwanese_tts
+
+
