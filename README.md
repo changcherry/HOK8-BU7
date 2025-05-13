@@ -19,15 +19,15 @@ docker-compose up
 
 ## 執行方式
 -進入虛模擬器
-、、、
+```
 source venv/bin/activate 
-、、、
+```
 -退出 
-、、、
+```
 deactivate
-、、、
+```
 -檔案執行
-、、、
+```
 cd HOK8-BU7  PYTHONPATH=. python3 -m hok8bu7.taiwanese_tts
-、、、
+```
 
