@@ -139,21 +139,21 @@ else:
 
 
 try:
-    from hok8_bu7.local import 服務設定 as HOK8_BU7_SIAT4_TING7
+    from hok8bu7.local import 服務設定 as HOK8_BU7_SIAT4_TING7
 except ImportError:
-    from hok8_bu7.siattīng import 服務設定 as HOK8_BU7_SIAT4_TING7
+    from hok8bu7.siattīng import 服務設定 as HOK8_BU7_SIAT4_TING7
 finally:
     HOK8_BU7_SIAT4_TING7
 
 try:
-    from hok8_bu7.local import SECRET_KEY
+    from hok8bu7.local import SECRET_KEY
 except ImportError:
     SECRET_KEY
 try:
-    from hok8_bu7.local import DEBUG
+    from hok8bu7.local import DEBUG
 except ImportError:
     DEBUG
 try:
-    from hok8_bu7.local import DATABASES
+    from hok8bu7.local import DATABASES
 except ImportError:
     DATABASES
