@@ -18,8 +18,16 @@ docker-compose up
 程式部份為MIT授權。
 
 ## 執行方式
-進入虛模擬器 source venv/bin/activate 
-退出 deactivate
-檔案執行 cd HOK8-BU7  PYTHONPATH=. python3 -m hok8bu7.taiwanese_tts
-
+-進入虛模擬器
+、、、
+source venv/bin/activate 
+、、、
+-退出 
+、、、
+deactivate
+、、、
+-檔案執行
+、、、
+cd HOK8-BU7  PYTHONPATH=. python3 -m hok8bu7.taiwanese_tts
+、、、
 
